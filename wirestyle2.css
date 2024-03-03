@@ -1,0 +1,36 @@
+/* reset */
+body {
+    margin: 0;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+main {
+    width: 100%;
+    max-width: 56rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-height: 40rem;
+}
+.hero {
+    background-color: #cacaca;
+    width: 100%;
+    flex: 1;
+}
+.card-row {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: #cacaca;
+    min-width: 18rem;
+    flex: 1;
+}

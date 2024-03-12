@@ -58,9 +58,20 @@ main {
     line-height: 125%;
 }
 .card-row {
-
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    /*
+    grid-template-columns:
+    repeat(
+      auto-fit,
+      minmax(
+        min(
+          (37rem - 100%) * 999,
+          100%),
+        1fr
+      )
+    );
+    */
     gap: 1rem;
 }
 .card {
